@@ -13,6 +13,9 @@
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous"
         />
+        <!-- Js boostrap link  -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
         <!-- google Montserrat  font  -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -77,6 +80,48 @@
                 <h1>Reported posts</h1>
             </div>
         </main>
+        <section>
+          <h2 class="mt-5 text-center">Some question and answer</h2>
+            <div class="accordion w-75 mx-auto mt-5 mb-5" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        How does JavaScript work?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>JavaScript is a dynamic scripting or programming language. It is also a synchronous single-threated language. When some JavaScript code came to browser then he immediately parse this code. Much like the tree, he made it look like a syntax tree. Performs different types of syntax and more different works. Then he interpleted and compaile the code.Then optimize this code and show the output.</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What does JavaScript event loop do?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>Event loop is responsible for checking the call stack in the event. Queue also called as callback queue. If
+                        all the statements from the call stack have finished execution, then event loop will pop the statement from the event queue and push it to the call stack. Event loop is  work asynchronously.</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What is the difference between Local Storage and Session Storage?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>If you store data with local storage, that data will be permanent. That means even if you close the browser, it will still have data. And if you store any data with the help of session storage, the data will be will leave when the session is closed. That means if you close the browser, the data will be gone. This is the main differents between local storage and session storage.</strong>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
         <footer></footer>
 
         <!-- add javascript  file  -->
